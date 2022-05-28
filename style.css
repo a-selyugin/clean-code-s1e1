@@ -1,9 +1,4 @@
 /* Basic Style */
-body {
-  background-color: #f8f8f8;
-  color: #333;
-  font-family: Lato, sans-serif;
-}
 ul {
   margin:0;
   padding: 0px;
@@ -15,6 +10,11 @@ input,button{
   outline:none;
 }
 
+.page {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
 .header-img-wrapper {
   width: 500px;
   margin: 0 auto;
@@ -29,8 +29,9 @@ input,button{
 }
 
 @media (max-width:768px) {
-.header-img-wrapper { text-align: center;
-}
+  .header-img-wrapper { 
+    text-align: center;
+  }
 }
 .tasks-wrapper {
   display: block;
