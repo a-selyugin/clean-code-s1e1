@@ -41,19 +41,6 @@ button {
   width: 500px;
   margin: 0 auto 0;
 }
-
-.task-item__input,
-.task-item__label,
-.add-task__input {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-}
-.add-task__input-wrap {
-  display: flex;
-}
-
-
 .main__btn {
   background: none;
   border: 0px;
@@ -66,6 +53,7 @@ button {
 .main__btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .task-list__title,
 .add-task__label {
@@ -95,6 +83,17 @@ button {
 .task-item__input:focus,
 .add-task__input:focus {
   color: #333333;
+}
+
+.task-item__input,
+.task-item__label,
+.add-task__input {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+}
+.add-task__input-wrap {
+  display: flex;
 }
 
 /* New Task */
