@@ -1,4 +1,4 @@
-/* Basic Style */
+/* Nullify style */
 ul {
   margin: 0;
   padding: 0px;
@@ -11,7 +11,7 @@ input,
 button {
   outline: none;
 }
-
+/* Basic Style */
 .page {
   background-color: #f8f8f8;
   color: #333333;
